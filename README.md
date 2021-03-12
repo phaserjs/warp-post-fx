@@ -1,3 +1,5 @@
+![Phaser FX](examples/assets/css/phaser-fx-logo.png "Phaser FX")
+
 Warp Post FX
 ============
 
@@ -41,3 +43,8 @@ The documentation explains how to import and use Warp Post FX in your game. Also
 A lot of work and effort went into producing the Warp Post FX Pack and we truly hope you find it useful for your games.
 
 If you've any questions please get in touch with us on the [Phaser Discord](https://phaser.io/community/discord).
+
+[![Discord chat](https://img.shields.io/discord/244245946873937922?style=for-the-badge)](https://discord.gg/phaser)
+[![Twitter Follow](https://img.shields.io/twitter/follow/phaser_?style=for-the-badge)](https://twitter.com/phaser_)
+![npm](https://img.shields.io/jsdelivr/npm/hm/phaser?style=for-the-badge)
+![GitHub](https://img.shields.io/github/downloads/photonstorm/phaser/total?style=for-the-badge)

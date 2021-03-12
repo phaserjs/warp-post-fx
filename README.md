@@ -1,4 +1,4 @@
-![Phaser FX](/examples/assets/css/phaser-fx-logo.png?raw=true "Phaser FX")
+![Phaser FX](/examples/css/phaser-fx-logo.png?raw=true "Phaser FX")
 
 Warp Post FX
 ============

@@ -1,0 +1,17 @@
+{
+  "name": "warp-post-fx",
+  "displayName": "WarpPostFX",
+  "description": "Warp Post FX",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "npx http-server ./ --silent -o ./examples"
+  },
+  "author": "Richard Davey <rich@photonstorm.com> (http://www.photonstorm.com)",
+  "repository": "npm/npm",
+  "license": "Copyright Photon Storm Ltd, 2021. All rights reserved.",
+  "private": true,
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {}
+}

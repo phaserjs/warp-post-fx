@@ -1,0 +1,35 @@
+{
+    "name": "Warp Post FX",
+    "demos": [
+        {
+            "path": "image transition.js",
+            "name": "Image Transition",
+            "info": "Transition between two Images."
+        },
+        {
+            "path": "layer transition.js",
+            "name": "Layer Transition",
+            "info": "Transition from a Layer Game Object to an Image."
+        },
+        {
+            "path": "camera transition.js",
+            "name": "Camera Transition",
+            "info": "Run the transition on a Camera."
+        },
+        {
+            "path": "scene transition.js",
+            "name": "Transition between Scenes",
+            "info": "How to run the transition from one Scene to another."
+        },
+        {
+            "path": "transition to pointer.js",
+            "name": "Transition based on Pointer",
+            "info": "Update the transition effect based on the pointer position."
+        },
+        {
+            "path": "configure settings.js",
+            "name": "Configure FX Settings",
+            "info": "Interactively set the smoothness and direction of the effect."
+        }
+    ]
+}

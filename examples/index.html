@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Warp Post FX</title>
+    <link rel="shortcut icon" href="css/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles/gradient-dark.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient fixed-top">
+
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="../readme.html">Warp Post FX</a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../docs">Docs</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="dropdown01" data-bs-toggle="dropdown">Examples</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+						<li><a id="DDimage%20transition.js" class="dropdown-item fs-6" href="view.html?f=image%20transition.js">Image Transition</a></li>
+						<li><a id="DDlayer%20transition.js" class="dropdown-item fs-6" href="view.html?f=layer%20transition.js">Layer Transition</a></li>
+						<li><a id="DDcamera%20transition.js" class="dropdown-item fs-6" href="view.html?f=camera%20transition.js">Camera Transition</a></li>
+						<li><a id="DDscene%20transition.js" class="dropdown-item fs-6" href="view.html?f=scene%20transition.js">Transition between Scenes</a></li>
+						<li><a id="DDtransition%20to%20pointer.js" class="dropdown-item fs-6" href="view.html?f=transition%20to%20pointer.js">Transition based on Pointer</a></li>
+						<li><a id="DDconfigure%20settings.js" class="dropdown-item fs-6" href="view.html?f=configure%20settings.js">Configure FX Settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="d-flex"><img src="css/phaser-fx-logo.png" width="161" height="32" /></div>
+        </div>
+    </div>
+</nav>
+
+<main class="container-fluid mt-5 pt-3">
+
+    <div class="album py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+<div class="col">
+    <div class="card shadow h-100">
+        <p class="card-header" style="font-size: small; font-weight: bold">Image Transition</p>
+        <img src="screenshots/image%20transition.png" class="bd-placeholder-img card-img-top" />
+        <div class="card-body">
+            <p class="card-text" style="font-size: small">Transition between two Images.</p>
+        </div>
+        <div class="card-footer">
+            <a href="view.html?f=image%20transition.js" class="btn btn-primary stretched-link" style="font-size: small">View Example</a>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card shadow h-100">
+        <p class="card-header" style="font-size: small; font-weight: bold">Layer Transition</p>
+        <img src="screenshots/layer%20transition.png" class="bd-placeholder-img card-img-top" />
+        <div class="card-body">
+            <p class="card-text" style="font-size: small">Transition from a Layer Game Object to an Image.</p>
+        </div>
+        <div class="card-footer">
+            <a href="view.html?f=layer%20transition.js" class="btn btn-primary stretched-link" style="font-size: small">View Example</a>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card shadow h-100">
+        <p class="card-header" style="font-size: small; font-weight: bold">Camera Transition</p>
+        <img src="screenshots/camera%20transition.png" class="bd-placeholder-img card-img-top" />
+        <div class="card-body">
+            <p class="card-text" style="font-size: small">Run the transition on a Camera.</p>
+        </div>
+        <div class="card-footer">
+            <a href="view.html?f=camera%20transition.js" class="btn btn-primary stretched-link" style="font-size: small">View Example</a>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card shadow h-100">
+        <p class="card-header" style="font-size: small; font-weight: bold">Transition between Scenes</p>
+        <img src="screenshots/scene%20transition.png" class="bd-placeholder-img card-img-top" />
+        <div class="card-body">
+            <p class="card-text" style="font-size: small">How to run the transition from one Scene to another.</p>
+        </div>
+        <div class="card-footer">
+            <a href="view.html?f=scene%20transition.js" class="btn btn-primary stretched-link" style="font-size: small">View Example</a>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card shadow h-100">
+        <p class="card-header" style="font-size: small; font-weight: bold">Transition based on Pointer</p>
+        <img src="screenshots/transition%20to%20pointer.png" class="bd-placeholder-img card-img-top" />
+        <div class="card-body">
+            <p class="card-text" style="font-size: small">Update the transition effect based on the pointer position.</p>
+        </div>
+        <div class="card-footer">
+            <a href="view.html?f=transition%20to%20pointer.js" class="btn btn-primary stretched-link" style="font-size: small">View Example</a>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card shadow h-100">
+        <p class="card-header" style="font-size: small; font-weight: bold">Configure FX Settings</p>
+        <img src="screenshots/configure%20settings.png" class="bd-placeholder-img card-img-top" />
+        <div class="card-body">
+            <p class="card-text" style="font-size: small">Interactively set the smoothness and direction of the effect.</p>
+        </div>
+        <div class="card-footer">
+            <a href="view.html?f=configure%20settings.js" class="btn btn-primary stretched-link" style="font-size: small">View Example</a>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="text-light py-5 bg-dark bg-gradient">
+    <div class="container">
+        <p class="float-end mb-1"><a href="#">Back to top</a></p>
+        <p class="mb-1">&copy; Photon Storm Ltd</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
